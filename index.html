@@ -206,7 +206,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .hero-visual {
@@ -261,13 +261,13 @@
   }
 
   .hero-float-card.card-1 {
-    bottom: 22%;
-    left: 6%;
+    bottom: 10%;
+    left: -15%;
   }
 
   .hero-float-card.card-2 {
-    top: 28%;
-    right: 6%;
+    top: 15%;
+    right: -6%;
   }
 
   .float-label {
@@ -899,7 +899,21 @@
   }
     .hero { grid-template-columns: 1fr; min-height: auto; }
     .hero-left { padding: 7rem 1.5rem 3rem; }
-    .hero-right { height: 320px; }
+    .hero-right {
+        height: auto;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .hero-float-card.card-1, 
+    .hero-float-card.card-2 {
+        position: relative;
+        inset: auto;
+        margin: 10px 0;
+        width: 250px;
+        left: 0;
+        right: 0;
+    }
     .section-inner { padding: 4rem 1.5rem; }
     .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
     .research-grid, .projects-grid, .skills-grid { grid-template-columns: 1fr; }
@@ -949,22 +963,23 @@
 
   <div class="hero-right">
     <div class="hero-visual"></div>
+    
     <div class="hero-photo-ring">
-      <img src="maniruz.png" alt="Md Maniruz Zaman" style="width: 100%; height: 100%; object-fit: cover;">
+        <img src="maniruz.png" alt="Md Maniruz Zaman" style="width: 100%; height: 100%; object-fit: cover;">
+        
+        <div class="hero-float-card card-1">
+            <div class="float-label">Publications</div>
+            <div class="float-value">4+</div>
+            <div class="float-sub">Peer-reviewed papers</div>
+        </div>
+        
+        <div class="hero-float-card card-2">
+            <div class="float-label">Target</div>
+            <div class="float-value">PhD</div>
+            <div class="float-sub">USA · Fall 2025</div>
+        </div>
     </div>
 </div>
-  
-    <div class="hero-float-card card-1">
-      <div class="float-label">Publications</div>
-      <div class="float-value">4+</div>
-      <div class="float-sub">Peer-reviewed papers</div>
-    </div>
-    <div class="hero-float-card card-2">
-      <div class="float-label">Target</div>
-      <div class="float-value">PhD</div>
-      <div class="float-sub">USA · Fall 2025</div>
-    </div>
-  </div>
 </section>
 
 <!-- ABOUT -->
@@ -1123,7 +1138,7 @@
     </div>
     <div class="pub-list">
       <div class="pub-item fade-up">
-        <div class="pub-num">01</div>
+        <div class="pub-num">04</div>
         <div>
           <div class="pub-title">Optimizing Rooftop Solar PV Systems for Energy Efficiency in Urban Environments: A Case Study of Bangladesh</div>
           <div class="pub-authors">M. Taheruzzaman, <strong>M. M. Zaman</strong>, C. S. Naimah</div>
@@ -1139,7 +1154,7 @@
         </div>
       </div>
       <div class="pub-item fade-up">
-        <div class="pub-num">02</div>
+        <div class="pub-num">03</div>
         <div>
           <div class="pub-title">Advancements in Radar Technology for Enhanced Adaptive Cruise Control Systems</div>
           <div class="pub-authors"><strong>M. M. Zaman</strong>, I. H. Shibly, M. S. Hossain, M. S. R. Shanto</div>
@@ -1156,7 +1171,7 @@
         </div>
       </div>
       <div class="pub-item fade-up">
-        <div class="pub-num">03</div>
+        <div class="pub-num">02</div>
         <div>
           <div class="pub-title">Performance Analysis of Highway Vehicle Tracking Using Different Object Trackers</div>
           <div class="pub-authors">S. R. Shanto, S. M. Al Razi, S. Hossain, S. S. Islam, <strong>M. M. Zaman</strong></div>
@@ -1174,7 +1189,7 @@
         </div>
       </div>
       <div class="pub-item fade-up">
-        <div class="pub-num">04</div>
+        <div class="pub-num">01</div>
         <div>
           <div class="pub-title">Performance Analysis of Adaptive Cruise Control Using Frequency Modulated Continuous Wave Radar Under Rain Clutter</div>
           <div class="pub-authors">I. H. Shibly, <strong>M. M. Zaman</strong>, M. S. Hossain</div>
