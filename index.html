@@ -230,19 +230,18 @@
     overflow: hidden;
   }
 
-  .hero-photo-placeholder {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--muted);
-  }
+.hero-photo-placeholder{
+  width:220px;
+  height:220px;
+  overflow:hidden;
+  border-radius:50%;
+}
 
-  .hero-photo-placeholder svg {
-    width: 64px;
-    height: 64px;
-    opacity: 0.4;
-  }
+.hero-photo-placeholder img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
 
   .hero-photo-placeholder span {
     font-family: 'DM Mono', monospace;
@@ -261,13 +260,13 @@
   }
 
   .hero-float-card.card-1 {
-    bottom: 28%;
-    left: 10%;
+    bottom: 22%;
+    left: 6%;
   }
 
   .hero-float-card.card-2 {
-    top: 22%;
-    right: 10%;
+    top: 28%;
+    right: 6%;
   }
 
   .float-label {
