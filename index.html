@@ -879,8 +879,23 @@
 
   /* ── RESPONSIVE ── */
   @media (max-width: 900px) {
-    nav { padding: 1rem 1.5rem; }
-    .nav-links { gap: 1.2rem; }
+    nav { 
+    padding: 0.8rem 1rem; 
+    flex-direction: column; 
+    gap: 0.5rem;
+  }
+
+  .nav-links { 
+    gap: 0.6rem; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 0.6rem; 
+    letter-spacing: 0.05em;
+  }
     .hero { grid-template-columns: 1fr; min-height: auto; }
     .hero-left { padding: 7rem 1.5rem 3rem; }
     .hero-right { height: 320px; }
@@ -934,7 +949,7 @@
   <div class="hero-right">
     <div class="hero-visual"></div>
     <div class="hero-photo-ring">
-      <img src="maniruz.png" alt="Md Maniruz Zaman" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="maniruz.png" alt="Md Maniruz Zaman">
     </div>
 </div>
   
