@@ -1200,80 +1200,198 @@
 
 <!-- PROJECTS -->
 <section id="projects">
-  <div class="section-inner">
-    <div class="section-header fade-up">
-      <span class="section-num">05</span>
-      <h2 class="section-title">Projects</h2>
-    </div>
-    <div class="projects-grid">
-      <div class="project-card fade-up">
-        <div class="pc-icon">🧠</div>
-        <div class="pc-title">AI-Powered Disease Detection System</div>
-        <p class="pc-desc">Developed a CNN-based model for automated detection of diseases from medical images. Achieved 94% accuracy on a dataset of 10,000 images.</p>
-        <div class="pc-stack">
-          <span class="stack-tag">Python</span>
-          <span class="stack-tag">TensorFlow</span>
-          <span class="stack-tag">OpenCV</span>
-          <span class="stack-tag">ResNet</span>
+    <div class="project-grid">
+ 
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+      <div class="card-inner">
+        <div class="card-text-side">
+          <div class="card-meta">
+            <span class="status-dot ongoing"></span>
+            <span class="status-label ongoing">Ongoing</span>
+            <span class="card-date">2025 — Present</span>
+          </div>
+          <div class="card-title">IoT-Based Industrial Solar Power Monitoring &amp; Fault Detection System</div>
+          <div class="card-description">
+            <p>This project addresses a critical gap in renewable energy infrastructure — the lack of affordable, real-time fault detection for solar installations. Supervised undergraduate researchers in designing a fully integrated IoT system built around the ESP32 microcontroller to continuously monitor key photovoltaic parameters including panel voltage, current, temperature, and irradiance.</p>
+            <p>The system employs a cloud-based architecture where sensor data is transmitted over WiFi to a remote dashboard, enabling engineers and facility managers to track performance anomalies, identify degraded panels, and trigger automated alerts — without requiring physical site inspection. A threshold-based classification algorithm distinguishes between normal variation and genuine faults such as partial shading, bypass diode failure, or soiling losses.</p>
+          </div>
+          <div class="contributions">
+            <div class="contributions-label">Supervision Contributions</div>
+            <ul class="contrib-list">
+              <li>Defined system architecture, sensor selection, and data pipeline design</li>
+              <li>Guided cloud dashboard integration for remote diagnostics and alert logic</li>
+              <li>Reviewed fault classification algorithm and calibration methodology</li>
+            </ul>
+          </div>
+          <div class="tags">
+            <span class="tag">ESP32</span>
+            <span class="tag">IoT</span>
+            <span class="tag">Solar PV</span>
+            <span class="tag">Fault Detection</span>
+            <span class="tag">Cloud Dashboard</span>
+            <span class="tag">Renewable Energy</span>
+          </div>
         </div>
-      </div>
-      <div class="project-card fade-up">
-        <div class="pc-icon">💬</div>
-        <div class="pc-title">Bengali Sentiment Analysis Tool</div>
-        <p class="pc-desc">Fine-tuned a multilingual BERT model for Bengali social media sentiment classification. Built a full web interface for real-time analysis.</p>
-        <div class="pc-stack">
-          <span class="stack-tag">PyTorch</span>
-          <span class="stack-tag">HuggingFace</span>
-          <span class="stack-tag">FastAPI</span>
-          <span class="stack-tag">BERT</span>
-        </div>
-      </div>
-      <div class="project-card fade-up">
-        <div class="pc-icon">📊</div>
-        <div class="pc-title">Federated Learning Framework</div>
-        <p class="pc-desc">Implemented a privacy-preserving federated learning system for distributed model training across multiple clients without sharing raw data.</p>
-        <div class="pc-stack">
-          <span class="stack-tag">Python</span>
-          <span class="stack-tag">Flower</span>
-          <span class="stack-tag">PyTorch</span>
-          <span class="stack-tag">Docker</span>
-        </div>
-      </div>
-      <div class="project-card fade-up">
-        <div class="pc-icon">🔬</div>
-        <div class="pc-title">Bioinformatics Sequence Classifier</div>
-        <p class="pc-desc">Built an ML pipeline for DNA sequence classification using k-mer features and gradient boosting. Integrated with a bioinformatics workflow.</p>
-        <div class="pc-stack">
-          <span class="stack-tag">Python</span>
-          <span class="stack-tag">Scikit-learn</span>
-          <span class="stack-tag">Biopython</span>
-          <span class="stack-tag">XGBoost</span>
-        </div>
-      </div>
-      <div class="project-card fade-up">
-        <div class="pc-icon">🌐</div>
-        <div class="pc-title">Graph Neural Network for Citation Networks</div>
-        <p class="pc-desc">Applied GNN-based node classification on academic citation graphs. Compared GCN, GAT, and GraphSAGE models for link prediction.</p>
-        <div class="pc-stack">
-          <span class="stack-tag">PyG</span>
-          <span class="stack-tag">DGL</span>
-          <span class="stack-tag">NetworkX</span>
-          <span class="stack-tag">Python</span>
-        </div>
-      </div>
-      <div class="project-card fade-up">
-        <div class="pc-icon">🚗</div>
-        <div class="pc-title">Object Detection for Autonomous Systems</div>
-        <p class="pc-desc">Trained YOLOv8 on a custom dataset for real-time object detection in traffic scenarios. Optimized for edge deployment using TensorRT.</p>
-        <div class="pc-stack">
-          <span class="stack-tag">YOLOv8</span>
-          <span class="stack-tag">CUDA</span>
-          <span class="stack-tag">TensorRT</span>
-          <span class="stack-tag">ROS</span>
+        <div class="card-image-side" id="img-side-1">
+          <img id="img-1" alt="Solar Monitoring System">
+          <label class="upload-zone" for="file-1">
+            <input type="file" id="file-1" accept="image/*" onchange="loadImage(this,'img-1','upload-zone-1','img-side-1')">
+            <div class="upload-icon">+</div>
+            <div class="upload-text">
+              <strong>Add Project Image</strong>
+              Click to upload a photo of your system
+            </div>
+          </label>
+          <div class="img-overlay">
+            <label for="file-1" class="img-change-btn">Change Image</label>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+ 
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+      <div class="card-inner">
+        <div class="card-text-side">
+          <div class="card-meta">
+            <span class="status-dot done"></span>
+            <span class="status-label done">Completed</span>
+            <span class="card-date">Apr. 2026</span>
+          </div>
+          <div class="card-title">IoT-Based Smart Home Automation System</div>
+          <div class="card-description">
+            <p>With the rapid growth of connected devices, making home automation accessible and reliable for everyday users demands careful engineering of both hardware safety and software usability. This project supervised the end-to-end development of a WiFi-enabled home automation platform using the ESP32 microcontroller and optocoupler-isolated relay modules capable of switching standard 220V AC household loads safely.</p>
+            <p>A central design goal was dual-mode operation: users can control any connected appliance — fans, lights, pumps — either through a cloud-hosted mobile dashboard accessible from anywhere in the world, or through physical push-buttons installed at traditional switch positions. This ensures the system remains fully functional even during internet outages, making it genuinely dependable for everyday use rather than a technology demonstration.</p>
+          </div>
+          <div class="contributions">
+            <div class="contributions-label">Supervision Contributions</div>
+            <ul class="contrib-list">
+              <li>Guided relay isolation design for safe AC load switching at 220V</li>
+              <li>Oversaw cloud platform integration and mobile app configuration</li>
+              <li>Reviewed dual-mode failover logic ensuring offline push-button reliability</li>
+            </ul>
+          </div>
+          <div class="tags">
+            <span class="tag">ESP32</span>
+            <span class="tag">Relay Module</span>
+            <span class="tag">WiFi</span>
+            <span class="tag">Cloud App</span>
+            <span class="tag">AC Load Control</span>
+            <span class="tag">Embedded C</span>
+          </div>
+        </div>
+        <div class="card-image-side" id="img-side-2">
+          <img id="img-2" alt="Smart Home Automation">
+          <label class="upload-zone" for="file-2">
+            <input type="file" id="file-2" accept="image/*" onchange="loadImage(this,'img-2','upload-zone-2','img-side-2')">
+            <div class="upload-icon">+</div>
+            <div class="upload-text">
+              <strong>Add Project Image</strong>
+              Click to upload a photo of your system
+            </div>
+          </label>
+          <div class="img-overlay">
+            <label for="file-2" class="img-change-btn">Change Image</label>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- PROJECT 3 -->
+    <div class="project-card">
+      <div class="card-inner">
+        <div class="card-text-side">
+          <div class="card-meta">
+            <span class="status-dot done"></span>
+            <span class="status-label done">Completed</span>
+            <span class="card-date">Dec. 2025</span>
+          </div>
+          <div class="card-title">Footstep-Based Piezoelectric Energy Harvesting System</div>
+          <div class="card-description">
+            <p>Energy harvesting from ambient mechanical sources represents a compelling approach to powering low-energy IoT sensors in locations where battery replacement is impractical. This project supervised the design and construction of a footstep-driven energy harvesting prototype using a series-parallel array of piezoelectric transducers embedded beneath a floor tile, converting the mechanical stress of each footstep into usable electrical energy.</p>
+            <p>The raw AC output from piezoelectric elements is inherently noisy and variable. An LM2596-based buck converter circuit was designed and tuned to rectify and regulate this output to a stable 5.0V DC rail suitable for directly charging lithium-ion batteries or powering microcontroller systems. An Arduino Nano was programmed to display real-time voltage, current, and accumulated energy on a 16×2 LCD, with a software threshold filter eliminating false readings from vibration noise unrelated to actual footfalls.</p>
+          </div>
+          <div class="contributions">
+            <div class="contributions-label">Supervision Contributions</div>
+            <ul class="contrib-list">
+              <li>Designed series-parallel array topology for maximum energy transfer</li>
+              <li>Guided LM2596 buck converter tuning for stable 5.0V DC output</li>
+              <li>Reviewed noise-filtering algorithm and LCD data logging implementation</li>
+            </ul>
+          </div>
+          <div class="tags">
+            <span class="tag">Piezoelectric</span>
+            <span class="tag">LM2596</span>
+            <span class="tag">Arduino Nano</span>
+            <span class="tag">Energy Harvesting</span>
+            <span class="tag">Buck Converter</span>
+            <span class="tag">Embedded Systems</span>
+          </div>
+        </div>
+        <div class="card-image-side" id="img-side-3">
+          <img id="img-3" alt="Energy Harvesting System">
+          <label class="upload-zone" for="file-3">
+            <input type="file" id="file-3" accept="image/*" onchange="loadImage(this,'img-3','upload-zone-3','img-side-3')">
+            <div class="upload-icon">+</div>
+            <div class="upload-text">
+              <strong>Add Project Image</strong>
+              Click to upload a photo of your system
+            </div>
+          </label>
+          <div class="img-overlay">
+            <label for="file-3" class="img-change-btn">Change Image</label>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- PROJECT 4 -->
+    <div class="project-card">
+      <div class="card-inner">
+        <div class="card-text-side">
+          <div class="card-meta">
+            <span class="status-dot done"></span>
+            <span class="status-label done">Completed</span>
+            <span class="card-date">Dec. 2024</span>
+          </div>
+          <div class="card-title">IoT-Driven Weather Monitoring System for Sustainable Environments</div>
+          <div class="card-description">
+            <p>Precision environmental monitoring is fundamental to sustainable agriculture, urban planning, and climate-adaptive infrastructure. This project supervised the development of a low-cost, field-deployable weather station using a NodeMCU (ESP8266) microcontroller with an integrated suite of environmental sensors capturing temperature, humidity, atmospheric pressure, soil moisture, and light intensity in real time.</p>
+            <p>Data is transmitted continuously to the Blynk IoT cloud platform, where a configured mobile app dashboard allows remote stakeholders — farmers, researchers, or municipal planners — to monitor conditions from any location. The modular sensor architecture was designed intentionally for scalability: additional sensor nodes can be networked without hardware redesign, making the platform suitable for deployment across large agricultural zones or distributed urban monitoring grids at minimal incremental cost.</p>
+          </div>
+          <div class="contributions">
+            <div class="contributions-label">Supervision Contributions</div>
+            <ul class="contrib-list">
+              <li>Supervised multi-sensor integration and NodeMCU firmware development</li>
+              <li>Guided Blynk cloud configuration and real-time dashboard design</li>
+              <li>Directed scalable modular architecture for multi-node deployment</li>
+            </ul>
+          </div>
+          <div class="tags">
+            <span class="tag">NodeMCU</span>
+            <span class="tag">ESP8266</span>
+            <span class="tag">Blynk IoT</span>
+            <span class="tag">Environmental Sensing</span>
+            <span class="tag">Soil Moisture</span>
+            <span class="tag">Precision Agriculture</span>
+          </div>
+        </div>
+        <div class="card-image-side" id="img-side-4">
+          <img id="img-4" alt="Weather Monitoring System">
+          <label class="upload-zone" for="file-4">
+            <input type="file" id="file-4" accept="image/*" onchange="loadImage(this,'img-4','upload-zone-4','img-side-4')">
+            <div class="upload-icon">+</div>
+            <div class="upload-text">
+              <strong>Add Project Image</strong>
+              Click to upload a photo of your system
+            </div>
+          </label>
+          <div class="img-overlay">
+            <label for="file-4" class="img-change-btn">Change Image</label>
+          </div>
+        </div>
+      </div>
 </section>
 
 <!-- SKILLS -->
