@@ -1200,90 +1200,82 @@
 
 <!-- PROJECTS -->
 <section id="projects">
-   <div class="project-grid">
-
-    <div class="project-card">
-      <div class="card-inner">
-        <div class="card-text-side">
-          <div class="card-meta">
-            <span class="status-dot done"></span>
-            <span class="status-label done">Completed</span>
-            <span class="card-date">Apr. 2026</span>
-          </div>
-          <div class="card-title">IoT-Based Smart Home Automation System</div>
-          <div class="card-description">
-            <p>With the rapid growth of connected devices, making home automation accessible and reliable for everyday users demands careful engineering of both hardware safety and software usability. This project supervised the end-to-end development of a WiFi-enabled home automation platform using the ESP32 microcontroller and optocoupler-isolated relay modules capable of switching standard 220V AC household loads safely.</p>
-            <p>A central design goal was dual-mode operation: users can control any connected appliance — fans, lights, pumps — either through a cloud-hosted mobile dashboard accessible from anywhere in the world, or through physical push-buttons installed at traditional switch positions.</p>
-          </div>
-          <div class="contributions">
-            <div class="contributions-label">Supervision Contributions</div>
-            <ul class="contrib-list">
-              <li>Guided relay isolation design for safe AC load switching at 220V</li>
-              <li>Oversaw cloud platform integration and mobile app configuration</li>
-              <li>Reviewed dual-mode failover logic ensuring offline push-button reliability</li>
-            </ul>
-          </div>
-          <div class="tags">
-            <span class="tag">ESP32</span>
-            <span class="tag">Relay Module</span>
-            <span class="tag">WiFi</span>
-            <span class="tag">Cloud App</span>
-            <span class="tag">AC Load Control</span>
-          </div>
-        </div>
-        <div class="card-image-side" id="img-side-1">
-          <img id="img-1" alt="Smart Home Automation">
-          <label class="upload-zone" for="file-1">
-            <input type="file" id="file-1" accept="image/*" onchange="loadImage(this,'img-1','upload-zone-1','img-side-1')">
-            <div class="upload-icon">+</div>
-            <div class="upload-text"><strong>Add Project Image</strong></div>
-          </label>
-          <div class="img-overlay"><label for="file-1" class="img-change-btn">Change Image</label></div>
+  <div class="section-inner">
+    <div class="section-header fade-up">
+      <span class="section-num">05</span>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card fade-up">
+        <div class="pc-icon">🧠</div>
+        <div class="pc-title">AI-Powered Disease Detection System</div>
+        <p class="pc-desc">Developed a CNN-based model for automated detection of diseases from medical images. Achieved 94% accuracy on a dataset of 10,000 images.</p>
+        <div class="pc-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">TensorFlow</span>
+          <span class="stack-tag">OpenCV</span>
+          <span class="stack-tag">ResNet</span>
         </div>
       </div>
-    </div>
-
-    <div class="project-card">
-      <div class="card-inner">
-        <div class="card-text-side">
-          <div class="card-meta">
-            <span class="status-dot ongoing"></span>
-            <span class="status-label ongoing">Ongoing</span>
-            <span class="card-date">2025 — Present</span>
-          </div>
-          <div class="card-title">IoT-Based Industrial Solar Power Monitoring & Fault Detection System</div>
-          <div class="card-description">
-            <p>This project addresses a critical gap in renewable energy infrastructure — the lack of affordable, real-time fault detection for solar installations. Supervised undergraduate researchers in designing a fully integrated IoT system built around the ESP32 microcontroller to continuously monitor photovoltaic parameters.</p>
-          </div>
-          <div class="contributions">
-            <div class="contributions-label">Supervision Contributions</div>
-            <ul class="contrib-list">
-              <li>Defined system architecture, sensor selection, and data pipeline design</li>
-              <li>Guided cloud dashboard integration for remote diagnostics</li>
-            </ul>
-          </div>
-          <div class="tags">
-            <span class="tag">ESP32</span>
-            <span class="tag">Solar PV</span>
-            <span class="tag">Fault Detection</span>
-            <span class="tag">Renewable Energy</span>
-          </div>
-        </div>
-        <div class="card-image-side" id="img-side-2">
-          <img id="img-2" alt="Solar Monitoring System">
-          <label class="upload-zone" for="file-2">
-            <input type="file" id="file-2" accept="image/*" onchange="loadImage(this,'img-2','upload-zone-2','img-side-2')">
-            <div class="upload-icon">+</div>
-            <div class="upload-text"><strong>Add Project Image</strong></div>
-          </label>
-          <div class="img-overlay"><label for="file-2" class="img-change-btn">Change Image</label></div>
+      <div class="project-card fade-up">
+        <div class="pc-icon">💬</div>
+        <div class="pc-title">Bengali Sentiment Analysis Tool</div>
+        <p class="pc-desc">Fine-tuned a multilingual BERT model for Bengali social media sentiment classification. Built a full web interface for real-time analysis.</p>
+        <div class="pc-stack">
+          <span class="stack-tag">PyTorch</span>
+          <span class="stack-tag">HuggingFace</span>
+          <span class="stack-tag">FastAPI</span>
+          <span class="stack-tag">BERT</span>
         </div>
       </div>
-    </div>
-
+      <div class="project-card fade-up">
+        <div class="pc-icon">📊</div>
+        <div class="pc-title">Federated Learning Framework</div>
+        <p class="pc-desc">Implemented a privacy-preserving federated learning system for distributed model training across multiple clients without sharing raw data.</p>
+        <div class="pc-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">Flower</span>
+          <span class="stack-tag">PyTorch</span>
+          <span class="stack-tag">Docker</span>
+        </div>
+      </div>
+      <div class="project-card fade-up">
+        <div class="pc-icon">🔬</div>
+        <div class="pc-title">Bioinformatics Sequence Classifier</div>
+        <p class="pc-desc">Built an ML pipeline for DNA sequence classification using k-mer features and gradient boosting. Integrated with a bioinformatics workflow.</p>
+        <div class="pc-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">Scikit-learn</span>
+          <span class="stack-tag">Biopython</span>
+          <span class="stack-tag">XGBoost</span>
+        </div>
+      </div>
+      <div class="project-card fade-up">
+        <div class="pc-icon">🌐</div>
+        <div class="pc-title">Graph Neural Network for Citation Networks</div>
+        <p class="pc-desc">Applied GNN-based node classification on academic citation graphs. Compared GCN, GAT, and GraphSAGE models for link prediction.</p>
+        <div class="pc-stack">
+          <span class="stack-tag">PyG</span>
+          <span class="stack-tag">DGL</span>
+          <span class="stack-tag">NetworkX</span>
+          <span class="stack-tag">Python</span>
+        </div>
+      </div>
+      <div class="project-card fade-up">
+        <div class="pc-icon">🚗</div>
+        <div class="pc-title">Object Detection for Autonomous Systems</div>
+        <p class="pc-desc">Trained YOLOv8 on a custom dataset for real-time object detection in traffic scenarios. Optimized for edge deployment using TensorRT.</p>
+        <div class="pc-stack">
+          <span class="stack-tag">YOLOv8</span>
+          <span class="stack-tag">CUDA</span>
+          <span class="stack-tag">TensorRT</span>
+          <span class="stack-tag">ROS</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
 
 <!-- PROFESSIONAL EXPERIENCE -->
 <section id="experience">
